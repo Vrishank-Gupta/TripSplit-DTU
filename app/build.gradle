@@ -57,5 +57,6 @@ dependencies {
     compile 'com.razorpay:checkout:1.4.5'
     compile 'pro.appus:zoom-splash:1.0.0'
     compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
 apply plugin: 'com.google.gms.google-services'
