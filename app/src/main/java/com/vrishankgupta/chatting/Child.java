@@ -7,7 +7,7 @@ import com.google.firebase.auth.FirebaseUser;
  */
 
 public class Child extends Split {
-    public Child(FirebaseUser user, Float owedAmount, Float payedAmount) {
+    public Child(FirebaseUsers user, Float owedAmount, Float payedAmount) {
         super(user, owedAmount, payedAmount);
     }
 }

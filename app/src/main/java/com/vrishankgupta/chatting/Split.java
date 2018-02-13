@@ -7,11 +7,11 @@ import com.google.firebase.auth.FirebaseUser;
  */
 
 public class Split {
-    private FirebaseUser user;
+    private FirebaseUsers user;
     private Float owedAmount;
     private Float payedAmount;
 
-    public Split(FirebaseUser user, Float owedAmount, Float payedAmount) {
+    public Split(FirebaseUsers user, Float owedAmount, Float payedAmount) {
         this.user = user;
         this.owedAmount = owedAmount;
         this.payedAmount = payedAmount;
@@ -26,12 +26,12 @@ public class Split {
     }
 
 
-    public FirebaseUser getUser() {
+    public FirebaseUsers getUser() {
 
         return user;
     }
 
-    public void setUser(FirebaseUser user) {
+    public void setUser(FirebaseUsers user) {
         this.user = user;
     }
 
