@@ -4,35 +4,39 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+        <item android:title="Select">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_bug_report_black_24dp"
+                    android:id="@+id/uni"
+                    android:title="Individual"></item>
+                <item
+                    android:icon="@drawable/ic_bug_report_black_24dp"
+                    android:id="@+id/group"
+                    android:title="Group"></item>
+            </menu>
+        </item>
+        <item android:title="Options">
+            <menu>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_person_outline_black_24dp"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/report"
+                    android:icon="@drawable/ic_bug_report_black_24dp"
+                    android:title="Report" />
+                <item
+                    android:id="@+id/help"
+                    android:icon="@drawable/ic_help_black_24dp"
+                    android:title="Help" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Log Out" />
+            </menu>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+        </item>
+    </group>
 
 </menu>
